@@ -49,12 +49,15 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    display: inline-flex;
 }
 
 aside h2 {
     position: absolute;
-    top: 20px;
-    left: 370px;
+    transform: translate(-50%, -50%);
+    top: 10%;
+    left: 50%;
+    z-index: 1;
 }
 
 main img {
