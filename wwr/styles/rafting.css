@@ -64,7 +64,7 @@ nav a {
     text-shadow: black 0.1em 0.1em 0.2em;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
-    border: thin solid color(none);
+    border: thin solid color(rgba(0 0 0 0.6));
     padding: 20px;
     width: 100%;
 }
@@ -76,7 +76,7 @@ nav a {
     padding: 10px;
     transform: translate(-50%, -50%);
     background-color: #848380ad;  
-    border: thin solid color(none);
+    border: thin solid #848380ad;
     width: 85%;
     color: #FFFFFF;
     text-shadow: black 0.1em 0.1em 0.2em;
