@@ -21,6 +21,26 @@
     --nav-hover-background-color: #000000;
 }
 
+header {
+    padding: 20px 0;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid;
+    max-width: 1300px;
+}
+
+nav {
+    text-align: right;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+nav a {
+    text-decoration: none;
+}
 
 body {
     color: var(--text-color);
@@ -29,19 +49,27 @@ body {
     margin: 0 auto;
 }
 
+section {
+    padding: 1rem;
+}
+
+.adventure img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
+    padding: 5px;
 }
 
-
-header {
-    padding: 20px 0;
-}
-
-
-nav a {
-    text-decoration: none;
+img .logo {
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .hero {
@@ -91,8 +119,8 @@ nav a {
 
 .socialmedialinks {
     display: flex;
-    justify-content: left;
-    align-items: flex-start;
+    justify-content: right;
+    align-items: center;
     gap: 10px;
 }
 
