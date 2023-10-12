@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form: HTML and CSS</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <form>
+        <label for="q1">Which tag is used to create a paragraph?</label><br>
+        <input type="text" id="q1" name="q1"><br>
+    
+        <label for="q2">Explain the difference between class and ID in CSS</label><br> 
+        <textarea id="q2" name="q2"></textarea><br>
+    
+        <label for="q3">Which property is used to change the text color?</label><br>
+        <select id="q3" name="q3">
+          <option value="" data-default disabled selected></option>
+          <option value="text-color">text-color</option> 
+          <option value="color">color</option>
+          <option value="font-color">font-color</option>
+        </select><br>
+    
+        <label for="q4">How many values can the border property have in CSS?</label><br>
+        <input type="number" id="q4" name="q4"><br><br>
+    
+        <button type="submit">Submit Quiz</button>
+      </form>
+</body>
+</html>
